@@ -21,3 +21,15 @@ function createWaypoint(element, classToToggle, offset, cb) {
   }, { offset: offset });
 }
 ```
+
+A loop for standerd waypoint creation. Also has the ability to pass in custom logic, and classToToggle. Both are optional.
+
+Example Multiple Waypoints: `waypointer(['.that', '#that', '#this'], 'resolved', '10%', animate)`
+```js
+function waypointer(elementArray, classToToggle, offset, cb) {
+  for (var i=0; i < elementArray.length; i++) {
+    createWaypoint(elementArray[i], classToToggle, offset, cb);
+  }
+  return true;
+}
+```
