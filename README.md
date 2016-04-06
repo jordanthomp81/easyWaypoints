@@ -8,7 +8,8 @@ npm install waypoints
 ```
 
 ## Usage
-Creates a standerd waypoint with the option of custom logic. To pass in the custom logic, just create a function with all the logic you would like to call when the waypoint is activated, then pass just the name of the function into this function without qoutes. Note that these waypoint functions are available to any js file in this project
+Creates a standerd waypoint with the option of custom logic. To pass in the custom logic, just create a function with all the logic you would like to call when the waypoint is activated, then pass just the name of the function into this function without qoutes. Note that these waypoint functions are available to any js file in this project.
+
 Example Single Waypoint: `createWaypoint('.that', 'is-active', '35%', animateThat)`
 ```js
 function createWaypoint(element, classToToggle, offset, cb) {
