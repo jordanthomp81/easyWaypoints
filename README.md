@@ -23,3 +23,4 @@ Example Multiple Waypoints:
 waypointer(['.that', '#that', '#this'], 'resolved', '10%', animate)
 waypointer(['.box', '#circle', '#nav'], 'active', '-25%')
 ```
+For any arguments that are not needed just pass in a `null` value
