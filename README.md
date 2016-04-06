@@ -12,14 +12,8 @@ Creates a standerd waypoint with the option of custom logic. To pass in the cust
 
 Example Single Waypoint: `createWaypoint('.that', 'is-active', '35%', animateThat)`
 ```js
-function createWaypoint(element, classToToggle, offset, cb) {
-  return jQuery(element).waypoint(function(direction) {
-    jQuery(element).toggleClass(classToToggle);
-    if (typeof cb !== "undefined") {
-      cb(element, classToToggle, offset, direction);
-    }
-  }, { offset: offset });
-}
+createWaypoint('.that', 'is-active', '35%', animateThat)
+createWaypoint('#this', 'debug', '-55%', animateThis)
 ```
 
 
