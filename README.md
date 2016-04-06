@@ -18,12 +18,8 @@ createWaypoint('#this', 'debug', '-55%', animateThis)
 
 
 Below is the loop for standerd waypoint creation. Also has the ability to pass in custom logic, and classToToggle. Both are optional.
-Example Multiple Waypoints: `waypointer(['.that', '#that', '#this'], 'resolved', '10%', animate)`
+Example Multiple Waypoints:
 ```js
-function waypointer(elementArray, classToToggle, offset, cb) {
-  for (var i=0; i < elementArray.length; i++) {
-    createWaypoint(elementArray[i], classToToggle, offset, cb);
-  }
-  return true;
-}
+waypointer(['.that', '#that', '#this'], 'resolved', '10%', animate)
+waypointer(['.box', '#circle', '#nav'], 'active', '-25%')
 ```
