@@ -9,7 +9,6 @@ npm install waypoints
 ```
 
 ## Usage
-===========
 ```js
 function createWaypoint(element, classToToggle, offset, cb) {
   return jQuery(element).waypoint(function(direction) {
