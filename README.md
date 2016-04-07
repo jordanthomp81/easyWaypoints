@@ -9,7 +9,7 @@ This algoithm is built on top of the waypoints.js library. Waypoints is a librar
 ```
 
 ## Usage
-Creates a standerd waypoint with the option of custom logic. To pass in the custom logic, just create a function with all the logic you would like to call when the waypoint is activated, then pass just the name of the function into this function without qoutes. Note that these waypoint functions are available to any js file in this project.
+Creates a standerd waypoint with the option of custom logic. To pass in the custom logic, just create a function with all the logic you would like to call when the waypoint is activated, then pass just the name of the function into this function without qoutes. Note that these waypoint functions are available to any js file in a project.
 
 Example Single Waypoint:
 ```js
