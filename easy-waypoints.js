@@ -25,3 +25,11 @@ function waypointer(elementArray, classToToggle, offset, cb) {
   }
   return true;
 }
+
+;(function($){
+  $(function() {
+
+    // place waypoints here
+
+  });
+}(jQuery));
