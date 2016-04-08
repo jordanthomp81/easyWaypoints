@@ -26,6 +26,7 @@ function waypointer(elementArray, classToToggle, offset, cb) {
   return true;
 }
 
+// This will be invoked when the page loads
 ;(function($){
   $(function() {
 
